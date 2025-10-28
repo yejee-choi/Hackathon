@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>조족등</title>
+    <style>
+        /* 기본 스타일 (다크 모드 유지) */
+        body {
+            font-family: 'Malgun Gothic', 'Dotum', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #333333; /* 배경색 수정: 더 어두운 톤 */
+            color: #d7d7d7;
+        }
+        header {
+            background-color: #1e1e1e; /* 헤더 배경색: 가장 어둡게 */
+            color: rgb(219, 219, 219);
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .container { 
+            width: 80%;
+            max-width: 1000px; /* 최대 너비 지정 */
+            margin: 20px auto;
+            background-color: #2a2a2a; /* 컨테이너 배경색 */
+            padding: 30px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+        }
+        section {
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #444444; /* 구분선 색상 어둡게 */
+        }
+        section:last-child {
+            border-bottom: none;
+        }
+        h2 {
+            color: #99e6f9; /* 제목색: 강조색과 통일 */
+            border-bottom: 2px solid #555555;
+            padding-bottom: 10px;
+            margin-top: 0;
+            font-size: 1.8em;
+        }
+        ul {
+            list-style-type: none; /* 목록 기호 제거 */
+            padding-left: 0;
+        }
+        li {
+            margin-bottom: 10px;
+            padding-left: 1.5em; /* 들여쓰기 */
+            text-indent: -1.5em; /* 아이콘 위치 조정 */
+        }
+        li::before {
+            content: "💡"; /* 아이콘 추가 */
+            color: #99e6f9;
+            font-weight: bold;
+            display: inline-block;
+            width: 1.5em;
+        }
+        .highlight {
+            font-weight: bold;
+            color: #ffcc00; /* 강조색을 눈에 띄게 변경 */
+        }
+        footer {
+            text-align: center;
+            padding: 15px 0;
+            background-color: #1e1e1e;
+            color: white;
+            margin-top: 30px;
+            border-radius: 0 0 10px 10px; /* 컨테이너와 일치시키기 위해 둥글게 처리하지 않음 */
+        }
+        .image-placeholder {
+            text-align: center;
+            margin: 25px 0;
+        }
+        .image-placeholder img {
+            max-width: 100%;
+            height: auto;
+            border: 2px solid #555555;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+        }
+
+        /* 테이블 스타일 */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background-color: #3a3a3a;
+        }
+        th, td {
+            border: 1px solid #555555;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #4a4a4a;
+            color: #99e6f9;
+            font-weight: bold;
+            text-align: center;
+        }
+        td {
+            color: #cccccc;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>🌟 조족등 (뚜알기농장) - AI 기반 스마트 솔루션</h1>
+        <p>:옛날 밤길을 걸을 때 발 밑을 비추기 위해 사용하던 등불 </p>
+    </header>
+
+    <div class="container">
+
+        <section>
+            <h2>💡 조족등 </h2>
+            <div class="image-placeholder">
+                <img src="조족등 사진.png" alt="조족등 현대적 재해석 이미지" width="80">
+                <p style="font-size: 0.9em; color: #999;">[조족등 컨셉 이미지]</p>
+            </div>
+            <p>
+                조족등을 제작하게 된 이유:
+            </p>
+            <ul>
+                <li> 버스 정류장 근처 너무 어두워 위험한 큰 길</li>
+                <li> 차조차 사람을 확인할 수 없을 만큼 어두운 도로 환경</li>
+            </ul>
+            <p>
+                전구 색상과 효과:
+            </p>
+            <ul>
+                <li><span class="highlight">백색등</span>: 밝고 선명함 - 맑은 날 주로 사용</li>
+                <li><span class="highlight">황색등</span>: 백색등보다 가시성이 더욱 뛰어남 - 비오는 날, 안개낀 날 주로 사용</li>
+                <li><span class="highlight">UV 램프</span>: 파장이 짧은 청색광을 벌레가 좋아함 - 도로 밖으로 향해 벌레 유인용</li>
+            </ul>
+            <p>
+                
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>🧠 핵심 센서</h2>
+            <p>
+                스마트 조족등은 주변 환경과 사용자의 움직임을 정확히 파악하기 위해 다음 세 가지 센서를 핵심적으로 활용합니다.
+            </p>
+            <ul>
+                <li><span class="highlight">압력 센서 (발자국 인식)</span>: 사용자가 걷는 행위를 직접적으로 감지하여 조명의 점등 및 소등을 **정확하게 제어**합니다. (예: 발판, 신발 부착 등)</li>
+                <li><span class="highlight">라이다 (LiDAR) (거리 및 형태 인식)</span>: 조명 주변의 장애물과의 거리를 측정하고, 사람의 유무 및 형태를 인식하여 오작동을 최소화하며 안전을 확보합니다.</li>
+                <li><span class="highlight">우적센서 (빗물 감지)</span>: 조명 주변의 장애물과의 거리를 측정하고, 사람의 유무 및 형태를 인식하여 오작동을 최소화하며 안전을 확보합니다.</li>
+                <li><span class="highlight">조도 센서 (환경 밝기 측정)</span>: 주변 환경의 밝기를 측정하여 주간에는 작동을 멈추고 야간에만 시스템이 활성화되도록 **에너지 효율을 관리**합니다.</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>🔨 프로토타입 개발 및 비교 분석</h2>
+            <p>
+                조족등의 기능을 현대적으로 구현하기 위해 총 4단계의 프로토타입을 개발하고 주요 기능과 특징을 비교 분석했습니다.
+            </p>
+
+            <div class="image-placeholder">
+                <img src="나무애.jpg" alt="프로토타입 1 이미지" width="200" style="margin: 5px;">
+                <p>나무애</p>
+                <img src="바닥매립등.jpg" alt="프로토타입 2 이미지" width="200" style="margin: 5px;">
+                <p>바닥매립등</p>
+                <img src="조족등.jpg" alt="프로토타입 3 이미지" width="200" style="margin: 5px;">
+                <p>조족등</p>
+                <img src="UV.jpg" alt="프로토타입 4 이미지" width="200" style="margin: 5px;">
+                <p>스마트 가로등</p>
+            </div>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>프로토타입</th>
+                        <th>장점</th>
+                        <th>단점</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>나무애</td>
+                        <td>설치 시 구조물 필요 X</td>
+                        <td>UV램프랑 조명 함께 켤 수 없음
+                            나무가 도로가에 있어야함</td>
+                    </tr>
+                    <tr>
+                        <td>바닥매립등</td>
+                        <td>설치 시 구조물 필요 X</td>
+                        <td>UV램프랑 조명 함께 켤 수 없음
+                            걸려 넘어질 수 있음</td>
+                    </tr>
+                    <tr>
+                        <td>조족등</td>
+                        <td>보행자 맞춤형
+                            잘 보이기 때문에 구조물에 걸릴 위험 X</td>
+                        <td>설치 시 구조물 필요
+                            벌레가 낮게 모임</td>
+
+                    </tr>
+                    <tr>
+                        <td>스마트 가로등</td>
+                        <td>높아서 벌레가 위로 모임 유지보수 용이성</td>
+                        <td>설치 시 구조물 필요, 비용이 비쌈</td>
+
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>🌍 기대 효과 및 활용 계층</h2>
+            <p>
+                조족등 프로젝트는 단순한 조명을 넘어 농촌 생활의 안전과 효율을 증진하는 것을 목표로 합니다.
+            </p>
+            <ul>
+                <li>안전 증진: 야간 순찰이나 이동이 잦은 농촌 지역 주민(특히 고령층)의 낙상 사고 및 범죄 예방에 기여합니다.</li>
+                <li>에너지 효율: 필요한 순간에만 정확히 작동하여 불필요한 전력 소모를 줄이고, 친환경적인 농촌 인프라 구축에 일조합니다.</li>
+                <li>활용 계층: 현대에는 농장 관리인, 순찰대, 그리고 야간 이동이 많은 모든 농촌 거주자를 주요 타겟으로 합니다.</li>
+            </ul>
+        </section>
+        
+    </div>
+
+    <footer>
+        <p>&copy; 뚜알기농장 | 2025 AI+스마트 농촌 솔루션랩 | 지속 가능한 농촌을 위한 기술</p>
+    </footer>
+
+</body>
+</html>
